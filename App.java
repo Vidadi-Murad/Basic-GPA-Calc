@@ -30,10 +30,11 @@ public class App{
         history = scanner.nextInt();
         System.out.print("Enter your math score:");
         chemistry = scanner.nextInt();
+        
+        // Opetation
+        gpa = (math + english + history + music + phiyscs + chemistry)/6;
 
-
-
-
+        System.out.printf("Your GPS is: %.1f",gpa);
 
         
 
