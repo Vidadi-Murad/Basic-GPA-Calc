@@ -15,6 +15,24 @@ public class App{
         int history;
         int music;
         int chemistry;
+        double gpa;
+
+        // Labels for get daha from user
+        System.out.print("Enter your math score:");
+        phiyscs = scanner.nextInt();
+        System.out.print("Enter your math score:");
+        math = scanner.nextInt();
+        System.out.print("Enter your math score:");   
+        music = scanner.nextInt();
+        System.out.print("Enter your math score:");
+        english = scanner.nextInt();
+        System.out.print("Enter your math score:");
+        history = scanner.nextInt();
+        System.out.print("Enter your math score:");
+        chemistry = scanner.nextInt();
+
+
+
 
 
         
