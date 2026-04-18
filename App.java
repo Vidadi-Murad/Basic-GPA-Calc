@@ -33,10 +33,12 @@ public class App{
         
         // Opetation
         gpa = (math + english + history + music + phiyscs + chemistry)/6;
+        String grade = ( gpa > 60 ) ? "PASS" : "FAIL";
 
 
         System.out.println("------------------------");
-        System.out.printf("Your GPA is: %.1f\n",gpa);
+        System.out.printf("Your GPA is: %.1f %s\n" ,gpa,grade);
+        
 
         
 
