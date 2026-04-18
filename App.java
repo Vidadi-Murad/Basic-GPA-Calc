@@ -34,7 +34,9 @@ public class App{
         // Opetation
         gpa = (math + english + history + music + phiyscs + chemistry)/6;
 
-        System.out.printf("Your GPS is: %.1f",gpa);
+
+        System.out.println("------------------------");
+        System.out.printf("Your GPA is: %.1f\n",gpa);
 
         
 
